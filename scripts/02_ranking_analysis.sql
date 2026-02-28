@@ -72,3 +72,16 @@ FROM (
 	ON fs.customer_key = c.customer_key
 	GROUP BY c.customer_key, c.first_name, c.last_name
 )t WHERE t.rank_customers <= 10;
+
+-- What are the 5 best-performing countries in terms of sales?
+SELECT *
+FROM (
+	SELECT 
+		c.country,
+		SUM(fs.sales_amount) AS total_sales_by_country,
+		ROW_NUMBER() OVER (ORDER BY SUM(fs.sales_amount) DESC) AS rank_country
+	FROM gold.fact_sales fs
+	LEFT JOIN gold.dim_customers c
+	ON c.customer_key = fs.customer_key
+	GROUP BY c.country
+)t WHERE rank_country <= 5;
