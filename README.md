@@ -3,7 +3,7 @@
 
 ## 📋 Overview
 
-This repository contains the **Advanced Analytics Layer** of a modern data warehousing solution. While the foundational data engineering is handled in my other personal project, sql-data-warehouse-project, this one focuses on extracting high-level business intelligence from the consolidated data.
+This repository contains the **Advanced Analytics Layer** of a modern data warehousing solution. While the foundational data engineering is handled in my other personal project, **sql-data-warehouse-project**, this one focuses on extracting high-level business intelligence from the consolidated data.
 The project transforms raw, multi-source transactional data into strategic insights using T-SQL, focusing on sales performance, customer demographics, and product trends.
 
 ---
@@ -23,7 +23,7 @@ This project aims to help us on how to understand and cover insights about the d
 - **Part-to-Whole Analysis**: Analyze how an individual part is performing compared to the overall, allowing to understand which category has the greatest
 impact on the business.
 - **Ranking Analysis**: Order the values of Dimensions based on Measures in order to identify the top performers and as well, the bottom performers.
-Product Performance: Evaluate sales volume and margins to optimize inventory and marketing.
+- **Magnitude Analysis**: Compare the measures values across different categories and dimensions in order to help us understand the importance of different categories.
 
 ---
 
@@ -32,6 +32,9 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
+- **Country Performance**
+
+**And So On**
 
 ---
 
@@ -39,7 +42,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Languag**e: SQL, T-SQL (Transact-SQL)
 - **Database Engine**: Microsoft SQL Server
 - **Data Modeling**: Fact & Dimension Tables (Star Schema)
--- **Tooling**: SQL Server Management Studio (SSMS)
+- **Tooling**: SQL Server Management Studio (SSMS)
 
 ---
 
@@ -55,7 +58,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 ## 🚀 How to Use
 
 To get started, you need to have Microsoft SQL Server installed. Then, you must clone the Data Warehouse that I 
-have built as another Personal Project in this link [here](https://github.com/Ghesker-afk/sql-data-warehouse.git).
+have built as another Personal Project in this link [here](https://github.com/Ghesker-afk/sql-data-warehouse-project.git).
 
 Read the documents of the project. Then, clone the scripts of the project.
 
