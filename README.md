@@ -18,12 +18,13 @@ Before analysis, the data undergoes a rigorous **Data Quality** process to clean
 ---
 
 ## 🎯 Objective
-This project aims to help us on how to understand and cover insights about the datasets. We will divide the columns in Measures and Dimensions. If the values are numeric and makes sense to aggregate, then we are talking about Measures; otherwise, if isn't numeric nor makes sense to aggregate, then it is a Dimension.
+This project aims to help us on how to understand and cover insights about the datasets (**Exploratory Data Analysis**). We will divide the columns in Measures and Dimensions. If the values are numeric and makes sense to aggregate, then we are talking about Measures; otherwise, if isn't numeric nor makes sense to aggregate, then it is a Dimension.
 
 - **Part-to-Whole Analysis**: Analyze how an individual part is performing compared to the overall, allowing to understand which category has the greatest
 impact on the business.
 - **Ranking Analysis**: Order the values of Dimensions based on Measures in order to identify the top performers and as well, the bottom performers.
 - **Magnitude Analysis**: Compare the measures values across different categories and dimensions in order to help us understand the importance of different categories.
+- **Measures Exploration**: Calculate and find out the key metrics of the business (Big Numbers).
 
 ---
 
@@ -66,7 +67,7 @@ Read the documents of the project. Then, clone the scripts of the project.
 git clone https://github.com/Ghesker-afk/sql-data-analytics.git
 ```
 
-- Open your Microsoft SQL Server**
+- Open your Microsoft SQL Server
 - Navigate to the scripts directory
 - Execute the T-SQl files in your SQL Server environment to generate the analytical reports.
 
