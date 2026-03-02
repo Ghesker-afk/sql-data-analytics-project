@@ -25,6 +25,7 @@ impact on the business.
 - **Ranking Analysis**: Order the values of Dimensions based on Measures in order to identify the top performers and as well, the bottom performers.
 - **Magnitude Analysis**: Compare the measures values across different categories and dimensions in order to help us understand the importance of different categories.
 - **Measures Exploration**: Calculate and find out the key metrics of the business (Big Numbers).
+- **Change-Over-Time**: Analyze how a measure evolves over the time, and it is impotant in order to track the trends and identify seasonality in the data.
 
 ---
 
