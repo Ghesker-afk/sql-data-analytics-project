@@ -41,7 +41,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 ---
 
 ## 🛠️ Technologies & Skills
-- **Languag**e: SQL, T-SQL (Transact-SQL)
+- **Languages**: SQL, T-SQL (Transact-SQL)
 - **Database Engine**: Microsoft SQL Server
 - **Data Modeling**: Fact & Dimension Tables (Star Schema)
 - **Tooling**: SQL Server Management Studio (SSMS)
@@ -49,11 +49,17 @@ Develop SQL-based analytics to deliver detailed insights into:
 ---
 
 ## 📂 Project Structure
-├── scripts/             # T-SQL analytical scripts [6]
+```
+├── scripts/             # SQL analytical scripts [6]
 │   ├── 01_part_to_whole.sql
-│   └── product_performance.sql
+│   ├── 02_ranking_analysis.sql
+│   ├── 03_magnitude_analysis.sql
+│   ├── 04_measures_exploration.sql
+│   ├── 05_change_over_time_analysis.sql
+│   └── 06_customers_report.sql
 ├── LICENSE              # MIT License information [7]
 └── README.md            # Project documentation
+```
 
 ---
 
@@ -70,7 +76,7 @@ git clone https://github.com/Ghesker-afk/sql-data-analytics.git
 
 - Open your Microsoft SQL Server
 - Navigate to the scripts directory
-- Execute the T-SQl files in your SQL Server environment to generate the analytical reports.
+- Execute the T-SQL / SQL files in your SQL Server environment to generate the analytical reports.
 
 ---
 
