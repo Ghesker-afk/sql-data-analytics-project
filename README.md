@@ -26,6 +26,8 @@ impact on the business.
 - **Magnitude Analysis**: Compare the measures values across different categories and dimensions in order to help us understand the importance of different categories.
 - **Measures Exploration**: Calculate and find out the key metrics of the business (Big Numbers).
 - **Change-Over-Time**: Analyze how a measure evolves over the time, and it is impotant in order to track the trends and identify seasonality in the data.
+- **Performance Analysis**: It is the process of comparing the current value
+	with a target value, to measure the success and compare the performances.
 
 ---
 
@@ -56,7 +58,10 @@ Develop SQL-based analytics to deliver detailed insights into:
 │   ├── 03_magnitude_analysis.sql
 │   ├── 04_measures_exploration.sql
 │   ├── 05_change_over_time_analysis.sql
-│   └── 06_customers_report.sql
+│   ├── 06_change_over_time_analysis.sql
+│   ├── 07_dimensions_exploration.sql
+│   ├── 08_date_exploration.sql
+│   └── 09_performance_analysis.sql
 ├── LICENSE              # MIT License information [7]
 └── README.md            # Project documentation
 ```
